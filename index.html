@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Map Memories</title>
+  <meta name="description" content="Map Memories lets you save photos, notes and moments to places on a map, so you can revisit them later.">
+
+  <!-- Replace the content value below with the code from Google Search Console (HTML tag method) -->
+  <meta name="google-site-verification" content="PASTE_YOUR_CODE_HERE" />
+
+  <link rel="icon" href="logo.png">
+  <style>
+    :root {
+      --bg: #f7f9f8;
+      --text: #1d2a27;
+      --muted: #55655f;
+      --accent: #0f766e;
+      --line: #d9e2de;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111917;
+        --text: #e8efec;
+        --muted: #9fb0aa;
+        --accent: #3fc1b3;
+        --line: #26332f;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+    }
+    main, footer {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    main { padding-top: 56px; padding-bottom: 32px; }
+    .logo { width: 96px; height: 96px; border-radius: 20px; display: block; }
+    h1 { font-size: 2.2rem; margin: 20px 0 8px; line-height: 1.2; }
+    h2 { font-size: 1.15rem; margin: 36px 0 8px; }
+    p, li { color: var(--muted); }
+    p.lead { font-size: 1.15rem; color: var(--text); }
+    ul { padding-left: 20px; }
+    a { color: var(--accent); }
+    .button {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 12px 22px;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+    }
+    .button:focus-visible, a:focus-visible { outline: 3px solid var(--text); outline-offset: 3px; }
+    footer {
+      padding-top: 20px;
+      padding-bottom: 40px;
+      border-top: 1px solid var(--line);
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="logo" src="logo.png" alt="Map Memories logo">
+    <h1>Map Memories</h1>
+    <p class="lead">Save your memories to the places where they happened, and relive them on a map.</p>
+
+    <a class="button" href="https://play.google.com/store/apps/details?id=com.mapmemories.app">Get it on Google Play</a>
+
+    <h2>What the app does</h2>
+    <ul>
+      <li>Pin a memory to any location on the map.</li>
+      <li>Add photos and notes to each pinned memory.</li>
+      <li>Browse your pins later to see where you have been and what you remember.</li>
+    </ul>
+
+    <h2>Your data</h2>
+    <p>
+      Your memories belong to you. Map Memories only uses the data needed to run these features.
+      Read the <a href="privacy.html">Privacy Policy</a> to see what is collected, how it is used,
+      and how to ask for your data to be deleted.
+    </p>
+  </main>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a>
+  </footer>
+</body>
+</html>
